@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    min-height: 100vh;
+    background-image: url(Assets/asset1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-y: scroll;
+}
+header
+{
+    
+    position:fixed;
+    background: linear-gradient(to  right,  #f4a261, #ffc52d);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .swapSkill
+{
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #161616;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+
+}
+
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 6px 15px;
+    color: #161616;
+    border-radius: 15px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+    background: #f8a100;
+    color: #161616;
+}
+.p1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.p2 {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 200px;
+    text-align: justify;
+    width: 42%;
+}
+.pp2
+{
+    top: 500px;
+}
+
+
+.pp3 {
+    background-color: #f4a261;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    left: 0;
+    text-align: center;
+    margin-top: 450px;
+
+}
+
+
+table {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 80%;
+    font-size: 20px;
+    left: 0;
+    margin-left: 11%;
+    margin-top: 30px;
+}
+
+
+.c1, .c2, .c3 {
+    
+    font-size: 20px;
+    padding: 50px; 
+}
+.c4, .c5, .c6 {
+    
+    font-size: 20px;
+    padding: 50px; 
+    margin-bottom: 10;
+}
+
+.b1, .b2, .b3 {
+    font-size: 40px;
+}
+.bottom
+{
+    position: absolute;
+    background: linear-gradient(to  right,  #f4a261, #ffc52d);
+    margin-top: 1000px;
+    width: 100%;
+    padding: 25px 100px;
+}
+.bottom ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+.bottom ul li a
+{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 6px 15px;
+    color: #161616;
+    border-radius: 15px;
+}
+.bottom ul li a:hover ,
+.bottom li a.active
+{
+    background: #f8a100;
+    color: #161616;
+}
+
+    
